@@ -1,7 +1,9 @@
+import java.util.Scanner;
 public class MatrixMultiplication {
     public static void main(String[] args) {
-        int a[][]={{1,1,1},{2,2,2},{3,3,3}};
-        int b[][]={{1,1,1},{2,2,2},{3,3,3}};
+        Scanner sc = new Scanner(System.in);
+        int a[][]={{1,1,1},{2,2,2},{3,3,3}}; //MATRIX 1
+        int b[][]={{1,1,1},{2,2,2},{3,3,3}}; //MATRIX 2
 
 //creating another matrix to store the multiplication of two matrices
         int c[][]=new int[3][3];  //3 rows and 3 columns
